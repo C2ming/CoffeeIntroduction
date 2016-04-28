@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="cn.studyjams.s1.sj46.chenzhongming.MainActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/title"/>
+
+    <TextView
+        style="@style/TextStyle"
+        android:text="@string/Coffer_Introduction"/>
+
+    <Button
+        style="@style/ButtonStyle"
+        android:text="@string/Espress"
+        android:layout_marginTop="32dp"
+        android:background="#f9b294"
+        android:onClick="onClickEspresso"/>
+
+    <Button
+        style="@style/ButtonStyle"
+        android:text="@string/Americano"
+        android:background="#f4727f"
+        android:onClick="onClickAmericano"/>
+
+    <Button
+        style="@style/ButtonStyle"
+        android:text="@string/Macchiato"
+        android:background="#c06c86"
+        android:onClick="onClickMacchiato"/>
+
+    <Button
+        style="@style/ButtonStyle"
+        android:text="@string/Cappuccino"
+        android:background="#6d5c7e"
+        android:onClick="onClickCappuccino"/>
+
+    <Button
+        style="@style/ButtonStyle"
+        android:text="@string/Mocha"
+        android:background="#325d7f"
+        android:layout_marginBottom="24dp"
+        android:onClick="onClickMocha"/>
+</LinearLayout>
+</ScrollView>
