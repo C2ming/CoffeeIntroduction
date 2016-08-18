@@ -16,11 +16,9 @@
         <TextView
             style="@style/TextStyle"
             android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
             android:text="@string/espress_introduction"/>
 
-        <ImageView
-            style="@style/coffee_pic"
-            android:src="@drawable/espresso"/>
 
         <TextView
             style="@style/makeCoffeeText"/>

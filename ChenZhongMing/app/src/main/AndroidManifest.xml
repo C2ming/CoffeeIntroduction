@@ -15,11 +15,16 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".EspressoActivity"></activity>
-        <activity android:name=".AmericanoActivity"></activity>
-        <activity android:name=".MacchiatoActivity"></activity>
-        <activity android:name=".CappuccinoActivity"></activity>
-        <activity android:name=".MochaActivity"></activity>
+        <activity android:name=".EspressoActivity"
+            android:theme="@style/JK.SwipeBack.Transparent.Theme"></activity>
+        <activity android:name=".AmericanoActivity"
+            android:theme="@style/JK.SwipeBack.Transparent.Theme"></activity>
+        <activity android:name=".MacchiatoActivity"
+            android:theme="@style/JK.SwipeBack.Transparent.Theme"></activity>
+        <activity android:name=".CappuccinoActivity"
+            android:theme="@style/JK.SwipeBack.Transparent.Theme"></activity>
+        <activity android:name=".MochaActivity"
+            android:theme="@style/JK.SwipeBack.Transparent.Theme"></activity>
 
     </application>
 
